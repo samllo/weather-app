@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Show me the Weather</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div id="appContainer">
+
+  <section class="banner">
+    <div class="container">
+      <h1 class="heading">Whats the Weather Today?</h1>
+      <form>
+        <input type="text" placeholder="City..." autofocus>
+        <button type="submit">Tell Me</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+        <li class="city">
+          <h2 class="city-name" data-name="...">
+            <span>...</span>
+            <sup>...</sup>
+          </h2>
+          <span class="city-temp">...<sup>°C</sup></span>
+          <figure>
+            <img class="city-icon" src="..." alt="...">
+            <figcaption>...</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>

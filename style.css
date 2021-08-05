@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+ 
+html, body {
+  margin:0;
+  height:100vh;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  background: linear-gradient(180deg, white 65%, #8FD8D8);
+}
+
+/* form and header styling*/
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+}
+
+#appContainer{
+  margin: 10%;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.banner form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.banner form input {
+  font-size: 2rem;
+  background: linear-gradient( rgba(255, 255, 255, 0) 60%,rgba(212, 212, 212, 0.6)), url("samuel-beckett-bridge.jpg") no-repeat fixed;
+  background-size: cover;
+  box-shadow:inset 0 0 20px  white;
+}
+
+.banner form .msg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+}
+
+ /* */
