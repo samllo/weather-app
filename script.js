@@ -79,7 +79,7 @@ form.addEventListener("submit", e => {
       list.appendChild(li);
     },
     error: function(xhr, textStatus, errorThrown){
-      msg.textContent = "Please search for a valid city 😩";
+      msg.textContent = "Please search for a valid city";
     }
   });
   msg.textContent = "";
