@@ -12,7 +12,10 @@
   <!-- Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/8ae4b7406a.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -24,8 +27,10 @@
     <div class="container">
       <h1 class="heading">Whats the Weather Today?</h1>
       <form>
-        <input type="text" placeholder="City..." autofocus>
-        <button type="submit">Tell Me</button>
+        <div id="searchbox">
+          <input type="text" placeholder="City..." autofocus>
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
         <span class="msg"></span>
       </form>
     </div>
@@ -34,17 +39,7 @@
   <section class="card-section">
     <div class="container">
       <ul class="cities">
-        <li class="city">
-          <h2 class="city-name" data-name="...">
-            <span>...</span>
-            <sup>...</sup>
-          </h2>
-          <span class="city-temp">...<sup>°C</sup></span>
-          <figure>
-            <img class="city-icon" src="..." alt="...">
-            <figcaption>...</figcaption>
-          </figure>
-        </li>
+        
       </ul>
     </div>
   </section>
